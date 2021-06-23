@@ -1,0 +1,169 @@
+.filter-options {
+    /* border: 2px solid grey; */
+    box-shadow: 0px 3px 6px 0px grey;
+    display: block;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 10px;
+}
+
+/* .filter-items{
+    border: 2px solid grey;
+} */
+
+.heading {
+    width: 512px;
+    height: 51px;
+    margin: 37px 25px 27px 10px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.filter-heading {
+    /* width: 55px; */
+    /* height: 25px; */
+    margin: 10px 0px 10px 0px;
+    /* font-family: Poppins; */
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 1.5; */
+    /* letter-spacing: normal; */
+    /* text-align: left; */
+    color: #192f60;
+}
+
+.filter-subheading {
+    /* width: 106px; */
+    /* height: 20px; */
+    /* margin: 10px 102px 11px 1px; */
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.filter-dropdown {
+    width: 208px;
+    height: 35px;
+    margin: 11px 0 22px 1px;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+}
+
+.filter-checkbox {
+    /* width: 155px; */
+    /* height: 20px; */
+    /* margin: 15px 94px 12px 11px; */
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+.itemblock {
+    width: 100%;
+    height: 255px;
+    box-shadow: 0px 3px 6px 0px grey;
+    /* border: 1px solid; */
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+.item-details {
+    color: #8c96ab;
+    font-family: Poppins;
+    margin: 0px 0px 0px 5%;
+}
+
+.itempartheading {
+    width: 100%;
+    height: 43px;
+    /* margin: 14px 267.4px 5px 41px; */
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.itempartheading1 {
+    width: 39px;
+    height: 23px;
+    /* margin: 5px 521.4px 5px 46px; */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.itempartsubheading {
+    /* width: 365px; */
+    width: 90%;
+    height: 23px;
+    /* margin: 5px 195.4px 38px 46px; */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.pagination div {
+    color: gray;
+    /* float: ; */
+    padding: 8px 16px;
+    text-decoration: none;
+    border: solid 1px gray;
+    border-radius: 15px;
+    margin: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .pagination {
+        display: inline-block;
+        margin-top: 25px;
+        width: 380px;
+        margin-left: 5%;
+    }
+}
+
+.pagination :hover {
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
+.itemblock :hover {
+    cursor: pointer
+}

@@ -1,0 +1,31 @@
+.react-tabs__tab{
+    border: none;
+}
+
+.react-tabs__tab--selected{
+    border-bottom: 2px solid tomato;
+}
+
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .menu td, .menu thead {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .menu tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .menu tr:hover {background-color: #ddd;}
+  
+  .menu thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: tomato;
+    color: white;
+  }

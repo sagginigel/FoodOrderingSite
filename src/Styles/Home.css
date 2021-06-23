@@ -1,0 +1,199 @@
+#home{
+    width: 80%;
+    height: 500px;
+    object-fit: none;
+}
+
+#logo1 {
+    font-size: 80px;
+    color: red;
+    position: absolute;
+    top: 10%;
+    background: white;
+    width: 100px;
+    height: 100px;
+    margin-left: 47%;
+    text-align: center;
+    margin-right: 47%;
+    border-radius: 50%;
+    font-family: sans-serif;
+}
+
+
+.logo{
+  font-size: 80px;
+    color: red;
+      font-family: sans-serif; 
+      background: #ffffff;
+        border-radius: 50%;   
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+  
+}
+
+.titleBar{
+ 
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #ffffff;
+  
+}
+
+.dropmenu{
+    width: 300px;
+    height: 45px;
+    background-color: #ffffff;
+}
+
+
+.seachmenu{
+    width: 300px;
+    height: 45px;
+    background-color: #ffffff;
+    }
+
+
+
+
+.quickSearch{
+  width: 239px;
+  height: 43px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60 ;
+}
+
+.quickSearchList{
+  width: 331px;
+  height: 25px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+
+h1 {
+    width: 239px;
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+p{
+    width: 331px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+
+
+
+
+.itemTitle {
+  height: 150px;
+  width: 350px;
+  background-color: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  box-shadow: 0 3px 6px gray;
+  float: left;
+}
+
+.itemTitle1 {
+  width: 45%;
+  float: left;
+}
+
+.itemTitle2 {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+
+.compHeading {
+  text-align: left;
+  color: #192f60;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.compSubHeading {
+  text-align: left;
+  color: gray;
+  font-size: 18px;
+}
+
+/*
+
+*/
+
+/* @media only screen and (max-width: 1000px) {
+ 
+  .searchoptions{
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    }
+ } */
+
+
+.SmallSceen{
+  cursor: pointer;
+}
+
+.SmallSceen :hover{
+  background-color: lightgrey;
+
+}
+ @media only screen and (max-width: 1179px){
+  
+  .SmallSceen{
+      margin-left: 0px;
+      margin-right: 150px;
+      cursor: pointer;
+  }
+ }
+
+
+
+ @media only screen and (max-width: 993px){
+   .titleBar{
+    font-size: 25px;
+   }
+ }
+
